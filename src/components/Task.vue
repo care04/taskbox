@@ -39,6 +39,7 @@
 <script>
   import { reactive, computed } from 'vue';
   export default {
+    // eslint-disable-next-line vue/multi-word-component-names
     name: "Task",
     props: {
       task: {
